@@ -1,6 +1,6 @@
-import { Footer } from "../footer/footer";
-import { Account } from "../user/account";
-import { HeaderUser } from "../user/header";
+import { Footer } from "../components/footer/footer";
+import { Account } from "../components/user/account";
+import { HeaderUser } from "../components/user/header";
 
 export function ProfilePage() {
     return (

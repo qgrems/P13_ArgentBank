@@ -1,6 +1,6 @@
-import { NavBar } from "../header/navBar";
-import { Hero } from "../Index/hero";
-import { Footer } from "../footer/footer";
+import { NavBar } from "../components/header/navBar";
+import { Hero } from "../components/Index/hero";
+import { Footer } from "../components/footer/footer";
 
 export function HomePage() {
     return (

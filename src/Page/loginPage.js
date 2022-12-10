@@ -1,6 +1,6 @@
-import { Footer } from "../footer/footer";
-import { NavBar } from "../header/navBar";
-import { Login } from "../../Signin/main";
+import { Footer } from "../components/footer/footer";
+import { NavBar } from "../components/header/navBar";
+import { Login } from "../components/Signin/main";
 
 export function LoginPage() {
     return (

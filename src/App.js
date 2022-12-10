@@ -4,12 +4,12 @@ import {
   Route,
 } from "react-router-dom"
 import React from 'react'
-import { HomePage } from './components/Page/homePage';
-import { LoginPage } from './components/Page/loginPage';
-import { ProfilePage } from './components/Page/profilePage';
-import {  tokens } from './redux';
+import { HomePage } from './Page/homePage';
+import { LoginPage } from './Page/loginPage';
+import { ProfilePage } from './Page/profilePage';
+import {  tokens } from './redux/redux';
 import { Provider } from 'react-redux';
-import { ProtectedRoutes, ProtectedRoutesLogin } from './protectedroutes';
+import { ProtectedRoutes, ProtectedRoutesLogin } from './Page/protectedroutes';
 export default function App() {
   return (
     <Provider store={tokens}>

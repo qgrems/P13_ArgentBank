@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { modifUser, recupUser } from "../../API/api"
-import { addFirstName, addLastName, changerName } from "../../redux"
+import { addFirstName, addLastName, changerName } from "../../redux/redux"
 
 
 export function Account() {

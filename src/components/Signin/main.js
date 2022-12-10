@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux'
 import { loginUser, recupUser } from "../../API/api";
-import { addToken, addFirstName, addLastName, userLogin} from '../../redux';
+import { addToken, addFirstName, addLastName, userLogin} from '../../redux/redux';
 
 export function Login() {
     const {token}= useSelector((state) => state)

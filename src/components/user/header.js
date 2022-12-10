@@ -1,7 +1,7 @@
 import { useDispatch} from "react-redux";
 import { Link } from "react-router-dom";
 import logo from "../../assets/argentBankLogo.png"
-import { addToken, addFirstName, addLastName, userLogin} from '../../redux';
+import { addToken, addFirstName, addLastName, userLogin} from '../../redux/redux';
 export function HeaderUser() {
     const dispatch = useDispatch()
     function signOut()
